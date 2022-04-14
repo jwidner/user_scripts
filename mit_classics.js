@@ -32,3 +32,4 @@ insertAfter(textSection, start);
 // style
 textSection.style.margin = "auto";
 textSection.style.maxWidth = "28rem";
+textSection.style.lineHeight = "1.5em";
