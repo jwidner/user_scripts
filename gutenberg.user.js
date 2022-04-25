@@ -7,8 +7,10 @@
 // @author      Jesse Widner <jesse@widner.xyz>
 // @description 4/24/2022, 5:03:48 PM
 // ==/UserScript==
+document.body.style.fontFamily = "Verdana, Geneva, sans-serif";
 for (let match of document.querySelectorAll("p")) {
   match.style.margin = "auto";
   match.style.maxWidth = "28rem";
   match.style.lineHeight = "1.5em";
+  match.style.fontSize = "14px";
 }

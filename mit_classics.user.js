@@ -10,7 +10,7 @@
 
 // https://stackoverflow.com/questions/4793604/how-to-insert-an-element-after-another-element-in-javascript-without-using-a-lib
 function insertAfter(newNode, referenceNode) {
-    referenceNode.parentNode.insertBefore(newNode, referenceNode.nextSibling);
+  referenceNode.parentNode.insertBefore(newNode, referenceNode.nextSibling);
 }
 function grabAllBetween(startNode, endNode) {
   let arr = [];
@@ -30,6 +30,8 @@ textSection.append(...grabAllBetween(start, end));
 insertAfter(textSection, start);
 
 // style
+document.body.style.fontFamily = "Verdana, Geneva, sans-serif";
 textSection.style.margin = "auto";
 textSection.style.maxWidth = "28rem";
 textSection.style.lineHeight = "1.5em";
+textSection.style.fontSize = "14px";
